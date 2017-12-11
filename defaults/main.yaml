@@ -1,10 +1,10 @@
 ---
 
 # Packages to be installed
-archlinux_aur_pkgs: []
+aur_packages: []
 
 # Force the installation even if the packages are already installed
-archlinux_aur_force: false
+aur_force_flag: false
 
 # Under which user to build the packages
-archlinux_aur_user: nobody
+aur_user: nobody
