@@ -22,7 +22,7 @@
   tags:
     - archlinux_aur_check
 
-- include: build.yaml pkg={{ item.item }}
+- include_tasks: build.yaml pkg={{ item.item }}
   when: >
     aur_force_flag or
     item.rc != 0
