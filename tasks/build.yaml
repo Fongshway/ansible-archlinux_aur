@@ -11,7 +11,7 @@
   unarchive:
     src: /tmp/{{ pkg }}.tar.gz
     dest: /tmp/
-    copy: no
+    remote_src: yes
   tags:
     - archlinux_aur_unpack
 
