@@ -2,7 +2,7 @@
 
 - name: Test distribution
   assert:
-    that: ansible_os_family == "ArchLinux"
+    that: ansible_os_family == "Archlinux"
   tags:
     - archlinux_aur_dist
 
